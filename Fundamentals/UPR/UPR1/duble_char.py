@@ -15,3 +15,4 @@ while string != "End":
     #         print(char * 2, end= "")
     # string = input()
     # print()
+    #gogoogog
