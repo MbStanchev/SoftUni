@@ -1,13 +1,22 @@
-numbers = input().split()
-list = []
+def mini(lst):
+    a = min(entry)
+    return f'The minimum number is {a}'
 
-for num in numbers:
-    list.append(int(num))
-min_num = min(list)
-max_num = max(list)
-all_sum = sum(list)
 
-print(f"The minimum number is {min_num}")
-print(f"The maximum number is {max_num}")
-print(f"The sum number is: {all_sum}")
+def maxi(lst):
+    b = max (entry)
+    return f'The maximum number is {b}'
 
+
+def suma(lst):
+    c = sum (entry)
+    return f'The sum number is: {c}'
+
+
+# def all(lst):
+#     mini(lst)
+entry = list(map(int, input().split()))
+
+print(mini(entry))
+print(maxi(entry))
+print(suma(entry))
