@@ -4,17 +4,15 @@ def mini(lst):
 
 
 def maxi(lst):
-    b = max (entry)
+    b = max(entry)
     return f'The maximum number is {b}'
 
 
 def suma(lst):
-    c = sum (entry)
+    c = sum(entry)
     return f'The sum number is: {c}'
 
 
-# def all(lst):
-#     mini(lst)
 entry = list(map(int, input().split()))
 
 print(mini(entry))

@@ -16,3 +16,19 @@ else:
 
     else:
         pass
+#
+# def calculate(num):
+#     pr = (num // 10) * '%'
+#     dot = (10 - (num // 10)) * '.'
+#     if num < 100:
+#         print (f'{num}% [{pr}{dot}]')
+#         print('Still loading...')
+#     else:
+#         print (f'100% Complete!')
+#         print('[%%%%%%%%%%]')
+#
+#
+# data = int (input ())
+# if 0 <= data <= 100:
+#     if data % 10 == 0:
+#         calculate (data)

@@ -1,9 +1,12 @@
-numbers = input().split(", ")
+def is_the_same(lst):
+    if lst == lst[::-1]:
+        return True
+    return False
 
-for num in numbers:
-    #
-    num_rev = "".join(reversed(num))
-    if num == num_rev:
+
+entry = (input().split(', '))
+for i in entry:
+    if is_the_same(i):
         print(True)
     else:
         print(False)

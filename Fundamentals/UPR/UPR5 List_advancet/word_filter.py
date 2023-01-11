@@ -1,7 +1,6 @@
-# some_text = input().split()
-# result = [word for word in some_text if len(word) % 2 == 0]
-#
-# print(*result, sep='\n')
+entry = input().split()
 
-print(3// 10
-      )
+# for word in entry:
+#     if len(word) % 2 == 0:
+#         print(word)
+print(*[word for word in entry if len(word) % 2 == 0], sep='\n')
