@@ -1,6 +1,6 @@
 simb = ["-", ",", ".", "!", "?"]
 
-with open('SoftUni/Advanced/Exercises/file_handling/f.txt', 'r') as even_lines_file:
+with open('../../../files/text.txt', 'r') as even_lines_file:
     f = even_lines_file.readlines()
 
 print(f)
