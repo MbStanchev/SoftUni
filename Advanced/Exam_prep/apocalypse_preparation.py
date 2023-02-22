@@ -36,7 +36,8 @@ while sequence_textile and sequence_medicaments:
         sequence_medicaments.append(current_medicament + 10)
 
 aptechka = sorted(aptechka.items(), key=lambda x: (-x[1], x[0]))
-sequence_medicaments = sorted(sequence_medicaments, reverse=True)
+# sequence_medicaments = sorted(sequence_medicaments, reverse=True)
+sequence_medicaments.reverse()
 # sequence_textile = sorted(sequence_textile, reverse=True)
 
 

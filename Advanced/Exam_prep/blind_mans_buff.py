@@ -33,10 +33,10 @@ while True:
         break
     next_step_row = player_pos[0] + directions[command][0]
     next_step_cow = player_pos[1] + directions[command][1]
-    # if not 0 > next_step_row >= n and not 0 > next_step_cow >= m:
-    #     continue
-    if not is_it_in(next_step_row, next_step_cow, n, m):
+    if not 0 <= next_step_row < n and not 0 <= next_step_cow < m:
         continue
+    # if not is_it_in(next_step_row, next_step_cow, n, m):
+    #     continue
     if matrix[next_step_row][next_step_cow] == "O":
         continue
 
