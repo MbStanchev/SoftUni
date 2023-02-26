@@ -1,12 +1,10 @@
-from task import Task
-
 
 class Section:
     def __init__(self, name):
         self.name = name
         self.tasks = []
 
-    def add_task(self, new_task: Task):
+    def add_task(self, new_task):
         if new_task in self.tasks:
             return f"Task is already in the section {self.name}"
         self.tasks.append(new_task)
