@@ -13,16 +13,11 @@ class Player:
         return f"Skill {skill_name} added to the collection of the player {self.name}"
 
     def player_info(self):
-        skills = []
-        for skill in self.skills:
-            skills.append(f"{skill} - {self.skills[skill]}")
+        # skills = []
+        # for skill_name, v in self.skills.items():
+        #     skills.append(f"{skill_name} - {self.skills[skill_name]}")
         return f"Name: {self.name}\n" \
                f"Guild: {self.guild}\n" \
                f"HP: {self.hp}\n" \
-               f"MP: {self.mp}\n" \
-               f"==={''.join(skills)}"
-
-
-player = Player("George", 50, 100)
-print(player.add_skill("Shield Break", 20))
-print(player.player_info())
+               f"MP: {self.mp}\n" + \
+               '\n'.join([f'==={s} - {m}' for s, m in self.skills.items()])
