@@ -22,7 +22,7 @@ class Task:
         self.comments.append(comment)
 
     def edit_comment(self, comment_number, new_comment):
-        if 0 < self.comments[comment_number] < len(self.comments):
+        if 0 <= comment_number < len(self.comments):
             self.comments[comment_number] = new_comment
             return ', '.join(self.comments)
         else:
