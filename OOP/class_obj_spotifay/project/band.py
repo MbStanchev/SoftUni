@@ -1,4 +1,4 @@
-from project.album import Album
+from OOP.class_obj_spotifay.project.album import Album
 
 
 class Band():
@@ -23,9 +23,9 @@ class Band():
                 return f"Album {album_name} has been removed."
         return f"Album {album_name} is not found."
 
-    def details(self):
-        result = f'"Band {self.name}'
-        for album in self.albums:
-            result += '\n' + album.details()
-        return result
+    def details(self) -> str:
+        result = [f"Band {self.name}"]
+        [result.append(a.details()) for a in self.albums]
+
+        return "\n".join(result)
 

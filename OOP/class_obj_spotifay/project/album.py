@@ -1,4 +1,4 @@
-from project.song import Song
+from OOP.class_obj_spotifay.project.song import Song
 
 
 class Album:
@@ -34,13 +34,14 @@ class Album:
                     return f"Removed song {song_name} from album {self.name}."
 
     def publish(self):
-        if self.publish:
+        if not self.publish:
             return f"Album {self.name} is already published."
+
         self.published = True
         return f"Album {self.name} has been published."
 
     def details(self):
-        result = f" Album {self.name}"
+        result = f"Album {self.name}"
         for the_song in self.songs:
             result += '\n' + f'== {the_song.get_info()}'
         return result
