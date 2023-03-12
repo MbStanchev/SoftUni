@@ -1,4 +1,4 @@
-from project.food.dessert import Dessert
+from OOP.static_andclass_methods.hotel_rooms.project import Dessert
 
 
 class Cake(Dessert):

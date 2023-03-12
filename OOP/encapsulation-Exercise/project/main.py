@@ -1,6 +1,6 @@
-from project.dough import Dough
-from project.pizza import Pizza
-from project.topping import Topping
+from OOP.static_andclass_methods.hotel_rooms.project import Dough
+from OOP.static_andclass_methods.hotel_rooms.project import Pizza
+from OOP.static_andclass_methods.hotel_rooms.project import Topping
 
 
 tomato_topping = Topping("Tomato", 60)

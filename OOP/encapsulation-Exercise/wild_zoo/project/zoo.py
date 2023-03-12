@@ -1,5 +1,5 @@
-from project.animal import Animal
-from project.lion import Lion
+from OOP.static_andclass_methods.hotel_rooms.project import Animal
+from OOP.static_andclass_methods.hotel_rooms.project import Lion
 
 
 class Zoo:

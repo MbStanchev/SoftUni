@@ -1,4 +1,4 @@
-from project.beverage.hot_beverage import HotBeverage
+from OOP.static_andclass_methods.hotel_rooms.project import HotBeverage
 
 
 class Coffee(HotBeverage):

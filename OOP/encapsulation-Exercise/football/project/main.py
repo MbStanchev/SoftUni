@@ -1,5 +1,5 @@
-from project.player import Player
-from project.team import Team
+from OOP.static_andclass_methods.hotel_rooms.project import Player
+from OOP.static_andclass_methods.hotel_rooms.project import Team
 
 
 p = Player("Pall", 1, 3, 5, 7)

@@ -1,4 +1,4 @@
-from project.worker import Worker
+from OOP.static_andclass_methods.hotel_rooms.project import Worker
 
 
 class Caretaker(Worker):

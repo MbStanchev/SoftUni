@@ -1,4 +1,4 @@
-from project.topping import Topping
+from OOP.static_andclass_methods.hotel_rooms.project import Topping
 
 
 class Pizza:

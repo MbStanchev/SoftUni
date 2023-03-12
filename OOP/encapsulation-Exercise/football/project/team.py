@@ -1,4 +1,4 @@
-from project.player import Player
+from OOP.static_andclass_methods.hotel_rooms.project import Player
 
 
 class Team:

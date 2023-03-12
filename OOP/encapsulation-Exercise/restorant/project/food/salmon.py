@@ -1,4 +1,4 @@
-from project.food.main_dish import MainDish
+from OOP.static_andclass_methods.hotel_rooms.project import MainDish
 
 
 class Salmon(MainDish):

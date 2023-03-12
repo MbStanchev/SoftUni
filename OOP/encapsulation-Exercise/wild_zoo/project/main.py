@@ -1,10 +1,10 @@
-from project.caretaker import Caretaker
-from project.cheetah import Cheetah
-from project.keeper import Keeper
-from project.lion import Lion
-from project.tiger import Tiger
-from project.vet import Vet
-from project.zoo import Zoo
+from OOP.static_andclass_methods.hotel_rooms.project import Caretaker
+from OOP.static_andclass_methods.hotel_rooms.project import Cheetah
+from OOP.static_andclass_methods.hotel_rooms.project import Keeper
+from OOP.static_andclass_methods.hotel_rooms.project import Lion
+from OOP.static_andclass_methods.hotel_rooms.project import Tiger
+from OOP.static_andclass_methods.hotel_rooms.project import Vet
+from OOP.static_andclass_methods.hotel_rooms.project import Zoo
 
 
 zoo = Zoo("Zootopia", 3000, 5, 8)

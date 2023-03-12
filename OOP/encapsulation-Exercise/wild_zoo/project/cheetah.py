@@ -1,4 +1,4 @@
-from project.animal import Animal
+from OOP.static_andclass_methods.hotel_rooms.project import Animal
 
 
 class Cheetah(Animal):

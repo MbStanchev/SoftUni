@@ -1,4 +1,4 @@
-from project.food.starter import Starter
+from OOP.static_andclass_methods.hotel_rooms.project import Starter
 
 
 class Soup(Starter):
