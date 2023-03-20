@@ -1,8 +1,8 @@
-from project.customer import Customer
-from project.equipment import Equipment
-from project.exercise_plan import ExercisePlan
-from project.subscription import Subscription
-from project.trainer import Trainer
+from OOP.static_andclass_methods.gym.project.customer import Customer
+from OOP.static_andclass_methods.gym.project.equipment import Equipment
+from OOP.static_andclass_methods.gym.project.exercise_plan import ExercisePlan
+from OOP.static_andclass_methods.gym.project.subscription import Subscription
+from OOP.static_andclass_methods.gym.project.trainer import Trainer
 
 
 class Gym:
